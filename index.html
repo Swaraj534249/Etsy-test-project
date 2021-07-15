@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etsy test</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <script src="js/main.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+  <section class="container product" id="product">
+    <div class="max-width">
+        
+        <div class="container img-container">
+          <div class="card">
+            <div class="box">
+                <img src="./css/img/il_1140xN.3049625199_p9ks.jpg" alt="" id="productImg">
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                
+            </div>
+            <div class="small-imgs">
+              <div class="small-img">
+                <img src="./css/img/il_1140xN.3049625199_p9ks.jpg" alt="" class="smallImg" onclick="clickme(this)">
+              </div>
+              <div class="small-img">
+                <img src="css/img/il_1140xN.3049625005_i8kl.jpg" alt="" class="smallImg" onclick="clickme(this)">
+              </div>
+              <div class="small-img">
+                <img src="css/img/il_1140xN.3049625123_dxd1.jpg" alt="" class="smallImg" onclick="clickme(this)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title">DUTTOSHOP</h2>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          Local seller
+        </div>
+        <p class="description">
+          Pink Indian Designer Lehenga Choli with embroidery work Wedding lehenga choli party wear lehenga choli Indian Women,chaniya choli,lengha
+        </p>
+        <div class="price">
+          <div class="rate">
+            US$ 95.00+
+          </div>
+          <div class="stock">
+            <i class="fas fa-check"></i>
+            In stock
+          </div>
+        </div>
+        <div class="size">
+          Size
+          <select name="size" id="size-select">
+            <option value="">Select an option</option>
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+          </select>
+        </div>
+        <div class="arrival">
+          <i class="fas fa-check"></i>
+          Arrives by <span>23-28 Jul</span> if you order today
+        </div>
+        <div class="submit-btn">
+          <button>Add to basket</button>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section id="accordion">
+    <section class="questions">
+        <!-- title -->
+        <!-- questions -->
+        <div class="section-center">
+          <!-- single question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Item Details</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Delivery and return polices</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!-- single question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Contact the seller</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          </div>
+      </section>
+  </section>
+
+</body>
+</html>
